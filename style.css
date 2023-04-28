@@ -45,6 +45,35 @@ body {
     margin-top: 50px;
 }
 
+.card > img {
+    width: 100%;
+}
+
+.prefer {
+    width: 50px;
+    height: 40px;
+    background-color: white;
+    position: absolute; 
+    top: 20px;
+    right: 0;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.red-box {
+    width: 50px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    position: absolute; 
+    bottom: 150px;
+    left: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
 .row {
     display: flex;
     gap: 10px;
@@ -55,4 +84,19 @@ body {
     flex-basis: calc(100% / 3 - 20px);
     border: 2px solid black;
     min-height: 500px;
+    position: relative;
+}
+
+.card-title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.discount-price {
+    color: red;
+    font-weight: bolder;
+}
+
+.full-price {
+    text-decoration: line-through;
 }
