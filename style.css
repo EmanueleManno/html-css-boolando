@@ -63,7 +63,7 @@ body {
 
 .red-box {
     width: 50px;
-    height: 25px;
+    height: 30px;
     background-color: red;
     color: white;
     position: absolute; 
@@ -71,6 +71,20 @@ body {
     left: 0;
     text-align: center;
     vertical-align: middle;
+    padding: 5px;
+}
+
+.green-box {
+    width: 120px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    position: absolute; 
+    bottom: 150px;
+    left: 60px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px;
 }
 
 
