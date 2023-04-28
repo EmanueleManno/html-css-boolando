@@ -39,3 +39,20 @@ body {
 .user-buy {
     color: white;
 }
+
+/*TUTTO CIO' CHE MI RIGUARDA IL MAIN*/
+.items {
+    margin-top: 50px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-basis: calc(100% / 3 - 20px);
+    border: 2px solid black;
+    min-height: 500px;
+}
