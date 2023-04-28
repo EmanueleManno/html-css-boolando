@@ -178,7 +178,16 @@ footer {
 }
 
 /*CUORE HOOVER*/
-
 .prefer:hover {
     color: red;
 }
+
+/*IMMAGINI HOOVER*/
+.img1 {
+    position: absolute;
+}
+
+.img1:hover {
+    opacity: 0;
+}
+
