@@ -176,3 +176,9 @@ footer {
 .social > i {
     padding: 5px;
 }
+
+/*CUORE HOOVER*/
+
+.prefer:hover {
+    color: red;
+}
