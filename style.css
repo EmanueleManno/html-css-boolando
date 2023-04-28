@@ -8,6 +8,8 @@
 /*BODY*/
 body {
     font-family: sans-serif;
+    position: relative;
+    margin-top: 150px;
 }
 
 /*CONTAINER*/
@@ -17,6 +19,13 @@ body {
 }
 
 /*TUTTO CIO' CHE MI RIGUARDA L'HEADER*/
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
 .header-nav {
     background-color: orange;
     height: 100px;
